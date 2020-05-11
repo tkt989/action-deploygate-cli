@@ -20,7 +20,7 @@ jobs:
       with:
         java-version: 1.8
       name: Build with Gradle
-    - uses: tkt989/action-deploygate-cli@master
+    - uses: tkt989/action-deploygate-cli@v1
       name: Install DeployGate
     - run: ./gradlew assembleDebug
     - run: dg deploy app/build/outputs/apk/debug/app-debug.apk
