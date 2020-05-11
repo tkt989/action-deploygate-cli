@@ -14,5 +14,5 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-    - uses: tkt989/action-deploygate-cli@v1
+    - uses: tkt989/action-deploygate-cli@master
     - run: dg --version
