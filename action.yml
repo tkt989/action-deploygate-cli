@@ -1,0 +1,9 @@
+name: 'Deploygate CLI install action'
+description: 'Install Deploygate CLI'
+author: 'tkt989'
+branding:
+  icon: 'terminal'
+  color: 'gray-dark'
+runs:
+  using: 'node12'
+  main: 'lib/main.js'
